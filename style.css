@@ -1,8 +1,37 @@
 body {
-    background-image: url("Computer-background.png");
+    background-color: rgb(172, 172, 172);
     background-size: cover;
     background-repeat: no-repeat;
 } 
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 40%;
+}
+
+.buttonstyle{
+    background-color: #10C9C3;
+    border: 1px white solid;
+    color: white;
+}
+
+.colorone{
+    color: black;
+}
+
+.colortwo{
+    color: gray;
+}
+
+.buttonstyle{
+    font-size: 20px;
+    
+}
 
 .sizecol {
     height: 500px;
