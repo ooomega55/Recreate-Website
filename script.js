@@ -1,3 +1,4 @@
+//when clicked, value is removed
 function clearName() {
   if (
     document.getElementById("nameField").value == "Your Name"
@@ -6,6 +7,7 @@ function clearName() {
   }
 }
 
+//once cleared and clicked out of box, value is added back
 function resetName() {
   if (document.getElementById("nameField").value == "") {
     document.getElementById("nameField").value = "Your Name";
@@ -61,3 +63,4 @@ function resetEmail() {
 function alertThanks() {
   alert('Thank you for the info');
 }
+//click button, get this message, DONT PRESS IT
